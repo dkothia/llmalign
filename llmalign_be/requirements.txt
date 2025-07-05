@@ -1,0 +1,13 @@
+# requirements.txt
+fastapi
+uvicorn
+boto3
+python-multipart
+# Add to requirements.txt
+transformers
+peft
+torch
+datasets
+accelerate
+scikit-learn
+
