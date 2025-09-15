@@ -14,7 +14,7 @@ Key Capabilities
 
 2. Multi-Source Data Integration
 
-    Ingest data from PDFs, websites, internal databases, and structured documents.
+    Ingest data from PDFs, internal databases, and structured documents.
 
     Preprocess and embed data for semantic understanding.
 
@@ -36,11 +36,7 @@ Key Capabilities
 
     Maintain versioned datasets and models for auditability and reproducibility.
 
-5. Enterprise-Grade Security
 
-    Supports role-based access control.
-
-    Ensures sensitive enterprise data stays secure during fine-tuning and deployment.
 ---
 
 ## Features
