@@ -43,6 +43,32 @@ llmalign/
 ├── README.md
 ├── .gitignore
 
+
+llmalign/
+├── llmalign_be/
+│ ├── app/
+│ │ ├── models/
+│ │ │ └── schemas.py
+│ │ ├── routers/
+│ │ │ ├── predict.py
+│ │ │ ├── train.py
+│ │ │ └── upload.py
+│ │ ├── services/
+│ │ │ ├── predictor.py
+│ │ │ ├── s3_utils.py
+│ │ │ └── trainer.py
+│ │ ├── tests/
+│ │ │ ├── test_predict.py
+│ │ │ └── test_s3.py
+│ │ └── utils/
+│ │ └── file_parser.py
+│ ├── models/
+│ ├── results/
+│ └── venv/
+└── llmalign_fe/
+
+
+
 ---
 
 ## Setup Instructions
