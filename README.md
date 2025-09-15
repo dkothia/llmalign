@@ -6,41 +6,41 @@ LLMAlign.ai is a cutting-edge SaaS platform designed to help enterprises adapt l
 
 Key Capabilities
 
-Domain-Specific Fine-Tuning
+1. Domain-Specific Fine-Tuning
 
-Fine-tune pre-trained LLMs using LoRA (Low-Rank Adaptation) on your proprietary data.
+    Fine-tune pre-trained LLMs using LoRA (Low-Rank Adaptation) on your proprietary data.
 
-Adapt models to industry-specific terminology, processes, and knowledge.
+    Adapt models to industry-specific terminology, processes, and knowledge.
 
-Multi-Source Data Integration
+2. Multi-Source Data Integration
 
-Ingest data from PDFs, websites, internal databases, and structured documents.
+    Ingest data from PDFs, websites, internal databases, and structured documents.
 
-Preprocess and embed data for semantic understanding.
+    Preprocess and embed data for semantic understanding.
 
-Model Deployment as APIs
+3. Model Deployment as APIs
 
-Deploy fine-tuned models as secure APIs for internal applications.
+    Deploy fine-tuned models as secure APIs for internal applications.
 
-Integrate LLMs into chatbots, analytics dashboards, or decision-support tools.
+    Integrate LLMs into chatbots, analytics dashboards, or decision-support tools.
 
-Semantic Search & Knowledge Retrieval
+    Semantic Search & Knowledge Retrieval
 
-Query domain-specific content using vector embeddings.
+    Query domain-specific content using vector embeddings.
 
-Enable fast, accurate answers from large enterprise knowledge bases.
+    Enable fast, accurate answers from large enterprise knowledge bases.
 
-Monitoring and Version Control
+4. Monitoring and Version Control
 
-Track model usage, performance, and retraining history.
+    Track model usage, performance, and retraining history.
 
-Maintain versioned datasets and models for auditability and reproducibility.
+    Maintain versioned datasets and models for auditability and reproducibility.
 
-Enterprise-Grade Security
+5. Enterprise-Grade Security
 
-Supports role-based access control.
+    Supports role-based access control.
 
-Ensures sensitive enterprise data stays secure during fine-tuning and deployment.
+    Ensures sensitive enterprise data stays secure during fine-tuning and deployment.
 ---
 
 ## Features
