@@ -44,31 +44,6 @@ llmalign/
 ├── .gitignore
 
 
-llmalign/
-├── llmalign_be/
-│ ├── app/
-│ │ ├── models/
-│ │ │ └── schemas.py
-│ │ ├── routers/
-│ │ │ ├── predict.py
-│ │ │ ├── train.py
-│ │ │ └── upload.py
-│ │ ├── services/
-│ │ │ ├── predictor.py
-│ │ │ ├── s3_utils.py
-│ │ │ └── trainer.py
-│ │ ├── tests/
-│ │ │ ├── test_predict.py
-│ │ │ └── test_s3.py
-│ │ └── utils/
-│ │ └── file_parser.py
-│ ├── models/
-│ ├── results/
-│ └── venv/
-└── llmalign_fe/
-
-
-
 ---
 
 ## Setup Instructions
@@ -76,31 +51,43 @@ llmalign/
 ### Backend (FastAPI)
 
 1. Navigate to the backend folder:
-
+```s
   cd llmalign_be
+```
 
 2. Create and activate a virtual environment:
-
+```s
   python -m venv .venv
   source .venv/bin/activate   # Mac/Linux
   .venv\Scripts\activate      # Windows
+```
 
 3. Install dependencies:
+   ```s
    pip install -r requirements.txt
+   ```
 
 4. Run the FastAPI server:
+   ```s
    uvicorn app.main:app --reload
+   ```
 
 ### Frontend (React.js)
 
 1. Navigate to the frontend folder:
+   ```s
    cd frontend
+   ```
    
 2. Install dependencies:
+   ```s
    npm install
+   ```
 
 3. Start the development server:
+   ```s
    npm start
+   ```
 
 App will be available at http://localhost:3000
    
