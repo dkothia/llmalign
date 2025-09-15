@@ -14,6 +14,7 @@ LLMAlign.ai is a full-stack SaaS platform designed for enterprises to **fine-tun
 ---
 
 ## Folder Structure
+```s
 llmalign/
 ├── llmalign_be/
 │   ├── app/
@@ -42,7 +43,7 @@ llmalign/
 │ ├── package.json
 ├── README.md
 ├── .gitignore
-
+```
 
 ---
 
@@ -76,7 +77,7 @@ llmalign/
 
 1. Navigate to the frontend folder:
    ```s
-   cd frontend
+   cd llmalign_fe
    ```
    
 2. Install dependencies:
