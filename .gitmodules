@@ -1,0 +1,3 @@
+[submodule "llmalign_fe"]
+	path = llmalign_fe
+	url = https://github.com/dkothia/llmalign-frontend.git
